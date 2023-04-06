@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-eval "$(
-  sed \
-    's#PREFIX="${PYENV_ROOT}/versions/${VERSION_NAME}"#PREFIX="${PYENV_ROOT}/versions/${VERSION_ALIAS:-$VERSION_NAME}' \
-    "$PYENV_ROOT/plugins/python-build/bin/pyenv-install"
-)"
