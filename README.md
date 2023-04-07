@@ -1,4 +1,4 @@
-# z-pyenv-alias
+# pyenv-alias
 
 Rename a pyenv version when `pyenv install` it.
 
@@ -6,7 +6,7 @@ Rename a pyenv version when `pyenv install` it.
 Installing as a pyenv plugin
 
 ```
-$ git clone https://github.com/ladyrick/z-pyenv-alias.git "$(pyenv root)/plugins/z-pyenv-alias"
+$ git clone https://github.com/ladyrick/pyenv-alias.git "$(pyenv root)/plugins/pyenv-alias"
 ```
 
 ## usage
